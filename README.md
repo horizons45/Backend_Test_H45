@@ -24,14 +24,14 @@ You are going to build a rest API server to expose a List of Drivers to a client
   * an_aasigned_truck (each truch has a unique number_plate and and a unique registration_number)
 
 * API endpoints and expected responses:
-  * http(s)://domain/driver
+  #### http(s)://domain/driver
   1) Return a list of available drivers
   3) Allow filtering using a driver's email, mobile_number, langeuage and his truck's number_plate
   
-  * http(s)://domain/driver/id
+  #### http(s)://domain/driver/id
   1) 2) Return a single driver
 
-  * http(s)://domain/driver/
+  #### http(s)://domain/driver/
   1) create a single driver
 
 * README
