@@ -29,10 +29,10 @@ You are going to build a rest API server to expose a List of Drivers to a client
   - Allow filtering using a driver's email, mobile_number, langeuage and his truck's number_plate
   
   #### http(s)://domain/driver/id
-  1) 2) Return a single driver
+  - Return a single driver
 
   #### http(s)://domain/driver/
-  1) create a single driver
+  - create a single driver
 
 * README
   * Please justify every single library you have used for this test
