@@ -12,9 +12,9 @@ You are going to build a rest API server to expose a List of Drivers to a client
 
 ### Deliverables
 
-* Create a Github repo and invite `info@horizons45.com`. Your Github repo should contain the whole project with the truck application and basic server settings. Make sure the local server can be spun up without any errors. (You don't need to commit the local database .sqlite to the repo)
+* Create a Github repo and invite `info@horizons45.com`. Your Github repo should contain the whole project with the truck application and basic server settings. Make sure the local server can be spun up without any errors. (You don't need to commit the local database `.sqlite` to the repo)
 
-* Model(s): Design the model to store the driver's information in the database (Note you may need multiple models and make use of database relationships like one-to-one, one-to-many etc). Each driver has the following fields or attributes:
+* Model(s): Design the model to store the driver's information in the database (Note: you may need multiple models and make use of database relationships like one-to-one, one-to-many etc). Each driver has the following fields or attributes:
   * name
   * mobile_number
   * email
@@ -25,14 +25,14 @@ You are going to build a rest API server to expose a List of Drivers to a client
 
 * API endpoints and expected responses:
 
-  #### /domain/driver
+  #### /domain/driver/
   - Return a list of available drivers
-  - Allow filtering using a driver's email, mobile_number, langeuage and his truck's number_plate
+  - Allow filtering using a driver's email, mobile_number, language and his truck's number_plate
   
   #### /domain/driver/id
   - Return a single driver
 
-  #### /domain/driver/
+  #### /domain/driver/id
   - create a single driver
 
 * README
